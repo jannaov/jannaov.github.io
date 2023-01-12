@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+
+  </script>
+
+<style>
+  .wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+  flex: auto;
+}
+  footer{
+    flex: 0;
+  }
+
+</style>
+<title>Jana Ovcharenko</title>
+</head>
+<body>
+
+
+  <div class="wrapper">
+
+<main class="container mx-auto px-5">
+  
+ <div class="about">
+  <figure class="md:flex bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+    <img class="w-64 h-64 rounded-full mx-auto" src="/img/avatar.jpg" alt="" width="384" height="512">
+    <div class="pt-6 text-center space-y-4">
+      <blockquote>
+        <p class="text-lg font-medium">
+          “Tailwind CSS is the only framework that I've seen scale
+          on large teams. It’s easy to customize, adapts to any design,
+          and the build size is tiny.”
+        </p>
+      </blockquote>
+      <figcaption class="font-medium">
+        <div class="text-sky-500 dark:text-sky-400">
+          Sarah Dayan
+        </div>
+        <div class="text-slate-700 dark:text-slate-500">
+          Staff Engineer, Algolia
+        </div>
+      </figcaption>
+    </div>
+  </figure>
+ </div> 
+
+
+<div class="gallery">
+  <div class="grid grid-flow-col grid-rows-2 grid-cols-3 gap-8">
+    <div>
+      <img src="/img/avatar.jpg" alt="" loading="lazy">
+    </div>
+    <div class="col-start-3">
+      <img src="/img/avatar.jpg" alt="" loading="lazy">
+    </div>
+    <div>
+      <img src="/img/avatar.jpg" alt="" loading="lazy">
+    </div>
+    <div>
+      <img src="/img/avatar.jpg" alt="" loading="lazy">
+    </div>
+    <div class="row-start-1 col-start-2 col-span-2">
+      <img src="/img/avatar.jpg" alt="" loading="lazy">
+    </div>
+  </div>
+</div>
+
+
+
+</main>
+<footer>footer</footer>
+  </div>
+
+
+
+
+
+  
